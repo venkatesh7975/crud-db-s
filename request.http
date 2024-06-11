@@ -1,0 +1,11 @@
+###
+post http://localhost:4001/login/
+Content-Type:application/json
+
+{
+    "username":"venkatesh",
+    "password":"Venkatesh@123"
+}
+
+####
+get http://localhost:4001/
